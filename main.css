@@ -1,0 +1,185 @@
+html, body, h1, h2, h3 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(216, 213, 213);
+}
+
+.Body {
+    padding: 0px;
+    margin: 20px auto;
+    height: fit-content;
+    width: 50%;
+    background-color: white;
+}
+
+.header h3 {
+    margin: 20px 20px 0 20px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+h1 {
+    margin: 0 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.inputBody {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    height: 550px;
+    width: 100%;
+    background-color: rgb(187, 187, 187);
+    overflow: scroll;
+}
+
+
+
+
+
+
+
+.comment {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 20px 0;
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+
+.userImg {
+    background-image: url(Images/generic-user-icon.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+
+.userInfo {
+    width: calc(100% - 70px);
+}
+
+.topBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.editDelete {
+    display: flex;
+    margin: 15px 20px 0 0;
+}
+
+.newUserName h3 {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+   
+}
+
+.edit {
+    color: skyblue;
+    padding: 10px;
+    justify-self: right;
+}
+
+.edit:hover {
+    cursor: pointer;
+}
+
+.delete {
+    color: skyblue;
+    padding: 10px;
+    justify-self: right;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+.newComment {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-right: 25px;
+}
+
+.newEditBox {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 20px 0;
+}
+
+.invisible {
+    display: none;
+}
+
+.editBox {
+    width: 85%;
+}
+
+.newSubmit {
+    font-family: Arial, Helvetica, sans-serif;
+    color: skyblue;
+    font-size: 20px;
+    margin: 0 10px 0 20px;
+}
+
+.newSubmit:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.userInput {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+.dName {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.commentBox {
+    width: 70%;
+    margin-right: 15px;
+}
+
+.submitButton {
+    margin: 5px 20px 0 0;
+    font-size: 20px;
+    color: skyblue;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+}
